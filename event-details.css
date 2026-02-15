@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#ffd29d,#ffb36b);
+}
+
+.event-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background: linear-gradient(135deg,#fbc2eb,#a6c1ee);
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #7a0045;
+  margin-bottom: 30px;
+}
+
+.poster-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.poster-section img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 14px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.info-grid p {
+  background: rgba(255,255,255,0.6);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #5a0033;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.buttons {
+  margin-top: 25px;
+}
+
+.register-btn,
+.back-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.register-btn {
+  background: #b30059;
+  color: white;
+}
+
+.back-btn {
+  background: #444;
+  color: white;
+}
+
+.register-btn:hover {
+  background: #800040;
+}
